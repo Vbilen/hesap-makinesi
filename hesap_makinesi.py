@@ -1,5 +1,3 @@
-# hesap_makinesi.py
-
 def toplama(x, y):
     return x + y
 
@@ -32,7 +30,7 @@ def main():
         sayi1 = float(input("Birinci sayıyı girin: "))
         sayi2 = float(input("İkinci sayıyı girin: "))
     except ValueError:
-        print("Lütfen sadece sayı girin.")
+        print("Lütfen geçerli bir sayı girin.")
         return
 
     if secim == '1':
